@@ -1,0 +1,154 @@
+#map {
+    height: 38vh;
+    width: 100vw;
+  }
+  
+  /* 
+   * Optional: Makes the sample page fill the window. 
+   */
+  
+  body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9fa
+  } 
+  
+  .stretch-card>.card {
+    width : 100vw;
+    min-width: 100vw;
+    
+}
+
+
+.flex {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
+
+@media (max-width:991.98px) {
+  
+}
+
+@media (max-width:767.98px) {
+    
+}
+
+
+
+.grid-margin, .purchace-popup > div {
+  
+}
+
+.card {
+   border: 0;
+   border-radius: 2px;
+}
+
+.card-weather {
+   background: #e1ecff;
+   background-image: linear-gradient(to left bottom, #d6eef6, #dff0fa, #e7f3fc, #eff6fe, #f6f9ff);
+width: 100vw;
+}
+
+.card {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   min-width: 0;
+   word-wrap: break-word;
+   background-color: #fff;
+   background-clip: border-box;
+   border: 1px solid rgba(0, 0, 0, 0.125);
+   border-radius: 0.25rem;
+}
+
+
+.card-weather .card-body:first-child {
+   background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1557323760/weather.svg) no-repeat center;
+   background-size: cover;
+}
+
+.card .card-body {
+   
+   height:36vh;
+}
+
+.card-body {
+  
+   height: 20vh;
+}
+
+.card-weather .weather-date-location {
+  
+}
+
+.h3, h3 {
+   font-size: 1.56rem;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+   font-family: "Poppins", sans-serif;
+   font-weight: 500;
+}
+
+.text-gray, .card-subtitle, .new-accounts ul.chats li.chat-persons a p.joined-date {
+   color: #969696;
+}
+
+p {
+   font-size: 13px;
+}
+
+.text-gray, .card-subtitle, .new-accounts ul.chats li.chat-persons a p.joined-date {
+   color: #969696;
+}
+
+.card-weather .weather-data {
+  
+   height: 4vh;
+}
+
+.mr-auto, .mx-auto {
+   margin-right: auto !important;
+}
+
+.display-3 {
+   font-size: 2.5rem;
+}
+
+.card-weather .card-body {
+   background: #ffffff;
+}
+
+.card-weather .weakly-weather {
+   background: #ffffff;
+   overflow-x: hidden;
+   width : 100vw;
+   height: 20vh;
+}
+
+.card-weather .weakly-weather .weakly-weather-item {
+   flex: 0 0 14.28%;
+   border-right: 1px solid #f2f2f2; 
+   padding: 1rem;
+   text-align: center;
+}
+
+.mb-0, .my-0 {
+   margin-bottom: 0 !important;
+   word-spacing: 33px;
+}
+
+.card-weather .weakly-weather .weakly-weather-item i {
+   font-size: 1.2rem;
+} 
+
+.weather-data d-flex{
+  height: 40vh;
+}
+.weakly-weather .row .coll{
+  column-gap: 80px;
+ 
+}
